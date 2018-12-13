@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_list_item_frame_layout"
+    android:paddingStart="1dp"
+    android:paddingEnd="1dp"
+    android:paddingBottom="1dp"
+    android:paddingTop="1dp">
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/sceneform_hand_phone"
+        />
+
+</FrameLayout>
+
